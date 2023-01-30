@@ -9,6 +9,7 @@ import camp.nextstep.edu.missionutils.Console;
 
 /**
  * 고민 1 : 어짜피 객체가 자기 위치를 기억할건데, 내가 Map을 사용해야 하나?
+ * 	-> 기억하지 말고, 매번 받아오자.
  */
 public class Race {
 
