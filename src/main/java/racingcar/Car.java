@@ -18,20 +18,26 @@ public class Car {
         if(randomNumber >= GO_FORWARD_NUMBER) {
             goForward();
         }
+        printPosition();
     }
 
     public int getPosition(){
         return position;
     }
 
-    public void printPosition(){
+    private void printPosition(){
         System.out.print(name + " : ");
         for(int i = 0; i<position; i++){
             System.out.print("-");
         }
+        System.out.println();
     }
 
     private void goForward() {
         position++;
+    }
+
+    public String getName() {
+        return name;
     }
 }
